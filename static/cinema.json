@@ -1,0 +1,162 @@
+{
+    "areas": [
+        {
+            "name": "成华区"          
+        },
+        {
+            "name": "高新区"  
+        },
+        {
+            "name": "锦江区"  
+        },
+        {
+            "name": "青羊区"  
+        },
+        {
+            "name": "大邑县"  
+        },
+        {
+            "name": "都江堰市"  
+        },
+        {
+            "name": "简阳市"  
+        },
+        {
+            "name": "金牛区"  
+        },
+        {
+            "name": "郫都区"  
+        },
+        {
+            "name": "温江区"  
+        },
+        {
+            "name": "武侯区"  
+        },
+        {
+            "name": "双流县"  
+        },
+        {
+            "name": "新都区"  
+        },
+        {
+            "name": "新津县"  
+        },
+        {
+            "name": "邛崃市"  
+        },
+        {
+            "name": "龙泉驿区"  
+        },
+        {
+            "name": "青白江区"  
+        },
+        {
+            "name": "蒲江县"  
+        },
+        {
+            "name": "金堂县"  
+        }
+    ],
+    "specials": [
+        {
+            "name": "观影小食"          
+        },
+        {
+            "name": "IMAX厅"  
+        },
+        {
+            "name": "巨幕厅"  
+        },
+        {
+            "name": "realD厅"  
+        },
+        {
+            "name": "4K厅"  
+        },
+        {
+            "name": "4DX厅"  
+        },
+        {
+            "name": "4D厅"  
+        },
+        {
+            "name": "杜比厅"  
+        },
+        {
+            "name": "双机3D"  
+        }
+    ],
+    "cinemas": [
+        {
+            "name": "成都UME影城（成华）",
+            "price": "20.5",
+            "address": "成华区建设北路3段6号龙湖三千集购物中心5楼",
+            "area": "成华区",
+            "specials": ["巨幕厅","观影小食"],
+            "activityTag": "星",
+            "activityTagColor": "tag-purple",
+            "activityInfo": "假如王子睡着了明星见面会"
+        },
+        {
+            "name": "SFC上影影城（成都科华店）",
+            "price": "30.8",
+            "address": "武侯区科华中路9号王府井百货2店5F",
+            "area": "武侯区",
+            "specials": ["4D厅"],
+            "activityTag": "",
+            "activityTagColor": "",
+            "activityInfo": ""
+        },
+        {
+            "name": "星美学府影城",
+            "price": "12.8",
+            "address": "武侯区一环路南一段12号，红瓦寺路口学府花园",
+            "area": "武侯区",
+            "specials": ["杜比厅","观影小食"],
+            "activityTag": "惠",
+            "activityTagColor": "tag-orange",
+            "activityInfo": "帕丁顿熊2等4部影片特惠"
+        },
+        {
+            "name": "太平洋影城（王府井店）",
+            "price": "14.8",
+            "address": "锦江区总府路15号王府井百货",
+            "area": "锦江区",
+            "specials": ["巨幕厅","改签"],
+            "activityTag": "",
+            "activityTagColor": "",
+            "activityInfo": ""
+        },
+        {
+            "name": "卢米埃影城（来福士店）",
+            "price": "20.8",
+            "address": "武侯区人民南路四段3号来福士广场3层",
+            "area": "武侯区",
+            "specials": ["IMAX厅"],
+            "activityTag": "促",
+            "activityTagColor": "tag-orange",
+            "activityInfo": "淘票票特惠促销"
+        },
+        {
+            "name": "成都双楠电影城",
+            "price": "29",
+            "address": "武侯区二环路西一段逸都路6号，同辉国际购物中心6楼",
+            "area": "武侯区",
+            "specials": ["退票", "改签"],
+            "activityTag": "",
+            "activityTagColor": "",
+            "activityInfo": ""
+        },
+        {
+            "name": "橙天嘉禾影城（富力店）",
+            "price": "15.8",
+            "address": "青羊区上西顺城街289富力天汇mall7楼",
+            "area": "青羊区",
+            "specials": ["4K厅", "改签"],
+            "activityTag": "",
+            "activityTagColor": "",
+            "activityInfo": ""
+        }
+    ]
+}

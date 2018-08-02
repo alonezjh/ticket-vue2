@@ -1,0 +1,417 @@
+/*
+ * @Author: alonez 
+ * @Date: 2017-12-02 17:34:55 
+ * @Last Modified by: alonez
+ * @Last Modified time: 2017-12-02 18:04:05
+ */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+*:focus {outline: none;} 
+.cinema {
+
+    .tag-purple {
+        background-color: #b390de;
+    }
+
+    .tag-orange {
+        background-color: #fea54c;
+    }
+     
+    .top {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align:center;
+        height: 12vmin;
+        width:100%;
+        background: #fff;
+        z-index: 9999;
+        vertical-align:middle;
+        border-bottom:1px solid #eee;
+        position:fixed;
+        left:0;
+        top:0;
+
+        .top-location {
+            width: 50vmin;
+
+            .location-icon {
+                line-height:12vmin;float:left;margin-left:15px;font-size:8vmin;color:#FF4D64;
+            }
+
+            .location-drop {
+                float:left;margin-left:2px;line-height:12vmin;color: rgb(146, 142, 165);
+            }
+
+            .location-name {
+                font-size:.94rem;color:#928ea5;line-height:12vmin;float:left;margin-left:10px
+            }
+        }
+
+        .top-action {
+            width: 30vmin;
+            display:flex;
+            margin-right: 5vmin;
+            align-items: center;
+            justify-content: flex-end;
+            flex: 1;
+
+            .action-filter {
+                display:flex;align-items: center;text-align: right;font-size: .9rem;color: #8a869e;
+
+                i {
+                    float:left;font-size:1.1rem;margin-right:2px;line-height:12vmin;
+                }
+            }
+
+            .action-divider {
+                color:#eee;margin:0 .9rem;
+            }
+
+            .action-search {
+                display:flex;align-items: center;font-size: .9rem;color: #8a869e;
+
+                i {
+                    font-size:1.2rem;float:left;margin-right:2px;line-height:12vmin;
+                }
+            }
+
+            .active {
+                color: #FF4D64;
+            }
+        }
+    }
+
+    .list-margin {
+        margin-top: 10vmin;
+    }
+
+    .list {
+        position: relative;
+        padding-top: 12vmin;
+        padding-bottom: 48px;
+
+        .list-item {
+            text-align:left;
+            font-size: 12px;
+            line-height: 200%;
+            padding-left: .9375rem;
+            padding-left: 4vmin;
+            overflow: hidden;
+
+            .item-wrap {
+                display: block;
+                position: relative;
+                padding-top: .8125rem;
+                padding-top: 3.5vmin;
+                padding-bottom: .75rem;
+                padding-bottom: 3.2vmin;
+                border-bottom: 1px solid #eee;
+
+                h3 {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    line-height: 6.4vmin;
+                    margin-bottom: 2px;
+                    font-weight: 600;
+                    color: #222227;
+
+                    .cinema-name {
+                        display: inline-block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        max-width: 13.75rem;
+                        max-width: 58.7vmin;
+                        vertical-align: bottom;
+                    }
+
+                    .cinema-price {
+                        display: inline-block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        font-weight: normal;
+                        text-overflow: ellipsis;
+                        max-width: 13.75rem;
+                        max-width: 58.7vmin;
+                        color: #ff4d64;
+                        vertical-align: bottom;
+                        font-size: .75rem;
+
+                        span {
+                            color: #8a869e;
+                        }
+                    }
+                }
+
+                .cinema-address {
+                    font-size: 12px; width: 72vmin;
+                    color: #8a869e;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .cinema-special {
+                    border: 1px solid #7ab5e0;
+                    border-radius: 50px;
+                    display: inline-block;
+                    position: relative;
+                    margin-right: 1.1vmin;
+                    padding: .5vmin 1.3vmin .5vmin 1.3vmin;
+                    line-height: 1;
+                    font-size: .75rem;
+                    color: #7ab5e0;
+                }
+
+                .cinema-act {
+                    height: 4vmin;
+                    line-height: .9375rem;
+                    line-height: 4vmin;
+                    color: #8a869e;
+                    font-size: .75rem;
+                    margin-top: .3125rem;
+                    margin-top: 1.3vmin;
+
+                    .act-icon { 
+                        border-radius: 2px;
+                        display: inline-block;
+                        width: 15px;
+                        height: 15px;
+                        line-height: 15px;
+                        text-align: center;
+                        color: #fff;
+                        font-size: 12px;
+                        margin-right: .1875rem;
+                        margin-right: .8vmin;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+.filter {
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     z-index: 101;
+     left: 0;
+     top:12vmin;
+     background: rgba(255,255,255,1);
+
+    .filter-content {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4vmin;
+        margin-top: 5vmin;
+        padding-left: 4vmin;
+        text-align: left;
+        position: absolute;
+        padding: 4vmin;
+        padding-bottom: 20vmin;
+        padding-right: 0;
+        padding-top: 0;
+        overflow-y: scroll;
+
+        .content-item:last-child {
+            border-bottom: 0;
+        }
+
+        .content-item {
+            padding-bottom: 3vmin;
+            margin-bottom: 3vmin;
+            border-bottom: 1px #eee solid;
+
+            .title {
+                display: inline-block;
+                font-size: .95rem;
+                font-weight: bold;
+                color: #50505a;
+            }
+    
+            .selected {
+                font-size: .75rem;
+                color: #8a869e;
+            }
+
+            .active {
+                color: #FF4D64;
+            }
+
+            ul {
+                width: 100%;
+                margin-left: -3vmin;
+                margin-top: 2.5vmin;
+
+                .filterSelected {
+                    border: .1vmin solid #FF4D64;
+
+                    div {
+                        color: #FF4D64;
+                    }
+                }
+    
+                li {
+                    margin-bottom: 0;
+                    margin-top: .1vmin;
+                    float: left;
+                    font-size: .8125rem;
+                    padding: 1.8vmin 1vmin;
+                    width: 20vmin;
+                    position: relative;
+                    color: #8a869e;
+                    margin-bottom: 2.1vmin;
+                    margin-left: 3vmin;
+                    border: .1vmin solid #e9e9e9;
+    
+                    div {
+                        text-align: center;
+                        white-space: nowrap;
+                        overflow-x: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+    }
+
+    .filter-footer {
+        position: absolute;
+        bottom: 12vmin;
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        right: 0;
+        padding: 4vmin 6.5vmin;
+        background: #fff;
+        border-top: 1px solid #ededed;
+
+        .btn-cancel {
+            background-color: transparent;
+            border: 1px solid #908ca3;
+            color: #8a869e;
+            width: 40vmin;
+            border-radius: 1.1vmin;
+            font-size: .9375rem;
+            line-height: 10.7vmin;
+        }
+
+        .btn-confirm {
+            background-color: #ff4d64;
+            border: 1px solid #ff4d64;
+            color: #fff;
+            float: right;
+            width: 40vmin;
+            border-radius: 1.1vmin;
+            font-size: .9375rem;
+            line-height: 10.7vmin;
+        }
+    }
+ }
+
+.filter-selected {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    margin-top: 12vmin;
+    color: #8a869e;
+    width: 100%;
+    height: 11vmin;
+    background: #fff;
+    overflow: hidden;
+
+    .selected-show {
+        line-height: 10vmin;
+        color: #8a869e;
+        width: 100%;
+        text-align: left;
+        float: left;
+        font-size: .8125rem;
+        padding-left: 4vmin;
+        padding-right: 4vmin;
+        border-bottom: 1px #eee solid;
+
+        
+        a {
+            float: right;
+            text-decoration: none;
+            color: #0af;
+        }
+    }
+    
+}
+
+.search {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top:0;
+    overflow-y: scroll;
+    background: rgba(255,255,255,1);
+
+    .cinema-search-hd {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        padding-left: .625rem;
+        padding: 3.1vmin;
+        padding-right: .625rem;
+        padding-top: .625rem;
+        padding-bottom: .625rem;
+        border-width: 0 0 1px;
+        border-style: solid;   
+        border-color: #eee;
+        box-sizing: border-box;
+        background: #fff;
+
+        a {
+            float: right;
+            margin-left: 4.1vmin;
+            font-size: 14px;
+            line-height: 25px;
+            color: #0af;
+            text-decoration: none;
+        }
+
+        .cinema-search-control {
+            border: 1px solid #ebebeb;
+            overflow: hidden;
+            border-radius: 4px;
+            position: relative;
+            padding-left: 28px;
+            padding-right: 20px;
+        }
+
+        i {
+            position: absolute;
+            top: 50%;
+            margin-top: -10px;
+            left: 4px;
+            color: #999;
+        }
+
+        input {
+            -webkit-appearance: textfield;
+            background-color: white;
+            -webkit-rtl-ordering: logical;
+            user-select: text;
+            cursor: auto;
+            padding: 1px;
+            border-width: 2px;
+            border-style: inset;
+            border-color: initial;
+            border-image: initial;
+            width: 100%;
+            line-height: 160%;
+            border: none;
+            font-size: .75rem;
+            height: 25px;
+            border: 0 solid transparent;
+        }
+    }
+ }

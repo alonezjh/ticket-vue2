@@ -1,0 +1,368 @@
+{
+    "cinemaName": "成都UME影城（成华）",
+    "cinemaAddress": "成华区建设北路3段6号龙湖三千集购物中心5楼",
+    "cinemaTags": ["IMAX厅","3D眼镜","儿童优惠","可刷卡","VIP厅","餐饮"],
+    "isCollect": 0,
+    "cinemaActivities": [
+        {
+            "title": "10元观影红包",
+            "content": "电信积分兑换专区",
+            "href": ""
+        }
+    ],
+    "cinemaMovies": [
+        {
+            "name": "寻梦环游记",
+            "artist": "本杰明·布拉特,盖尔·加西亚·贝纳尔,芮妮·维克托",
+            "score": "9.5",
+            "time": "105",
+            "type": "动画",
+            "cover": "//gw.alicdn.com/i2/TB1xsowaG_85uJjSZFlXXXemXXa_.jpg_170x10000Q75.jpg",
+            "movieSchedules": [
+                {
+                    "date": "今天12-09",
+                    "schedules" : [
+                        {
+                            "startTime": "11:30",
+                            "endTime": "13:15",
+                            "type": "英语 3D",
+                            "hall": "DMAX 巨幕",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "14:40",
+                            "endTime": "16:25",
+                            "type": "国语 3D",
+                            "hall": "3号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "15:00",
+                            "endTime": "16:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "15:20",
+                            "endTime": "17:05",
+                            "type": "英语 3D",
+                            "hall": "5号厅",
+                            "price": "34.7",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:10",
+                            "endTime": "17:55",
+                            "type": "英语 3D",
+                            "hall": "12号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "15:00",
+                            "endTime": "16:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:10",
+                            "endTime": "17:55",
+                            "type": "英语 3D",
+                            "hall": "12号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:40",
+                            "endTime": "18:25",
+                            "type": "英语 3D",
+                            "hall": "3号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "17:00",
+                            "endTime": "18:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                },
+                {
+                    "date": "明天12-10",
+                    "schedules" : [
+                        {
+                            "startTime": "14:40",
+                            "endTime": "16:25",
+                            "type": "国语 3D",
+                            "hall": "3号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "15:20",
+                            "endTime": "17:05",
+                            "type": "英语 3D",
+                            "hall": "5号厅",
+                            "price": "34.7",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:10",
+                            "endTime": "17:55",
+                            "type": "英语 3D",
+                            "hall": "12号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                },
+                {
+                    "date": "后天12-11",
+                    "schedules" : [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "16:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:40",
+                            "endTime": "18:25",
+                            "type": "英语 3D",
+                            "hall": "3号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "17:00",
+                            "endTime": "18:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "18:40",
+                            "endTime": "20:25",
+                            "type": "英语 3D",
+                            "hall": "DMAX 巨幕",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                }    
+            ]
+        },
+        {
+            "name": "帕丁顿熊2",
+            "artist": "本·威士肖,休·格兰特,布莱丹·格里森,朱丽·沃特斯,吉姆·布劳德本特",
+            "score": "9.1",
+            "time": "103",
+            "type": "动画",
+            "cover": "//gw.alicdn.com/i1/TB1PkLjgtzJ8KJjSspkXXbF7VXa_.jpg_170x10000Q75.jpg",
+            "movieSchedules": [
+                {
+                    "date": "今天12-09",
+                    "schedules" : [
+                        {
+                            "startTime": "15:20",
+                            "endTime": "17:05",
+                            "type": "英语 3D",
+                            "hall": "5号厅",
+                            "price": "34.7",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                },
+                {
+                    "date": "明天12-10",
+                    "schedules" : [
+                        {
+                            "startTime": "15:20",
+                            "endTime": "17:05",
+                            "type": "英语 3D",
+                            "hall": "5号厅",
+                            "price": "34.7",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:10",
+                            "endTime": "17:55",
+                            "type": "英语 3D",
+                            "hall": "12号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                },
+                {
+                    "date": "后天12-11",
+                    "schedules" : [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "16:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:40",
+                            "endTime": "18:25",
+                            "type": "英语 3D",
+                            "hall": "3号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "17:00",
+                            "endTime": "18:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                },
+                {
+                    "date": "周二12-12",
+                    "schedules" : [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "16:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                },
+                {
+                    "date": "周三12-13",
+                    "schedules" : [
+                        {
+                            "startTime": "15:20",
+                            "endTime": "17:05",
+                            "type": "英语 3D",
+                            "hall": "5号厅",
+                            "price": "34.7",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:10",
+                            "endTime": "17:55",
+                            "type": "英语 3D",
+                            "hall": "12号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "15:00",
+                            "endTime": "16:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                }        
+            ]
+        },
+        {
+            "name": "鲨海",
+            "artist": "曼迪·摩尔,克莱尔·霍尔特",
+            "score": "7.4",
+            "time": "90",
+            "type": "剧情",
+            "cover": "//gw.alicdn.com/i2/TB1WRaufrYI8KJjy0FaXXbAiVXa_.jpg_170x10000Q75.jpg",
+            "movieSchedules": [
+                {
+                    "date": "今天12-09",
+                    "schedules" : [
+                        {
+                            "startTime": "16:10",
+                            "endTime": "17:55",
+                            "type": "英语 3D",
+                            "hall": "12号厅",
+                            "price": "39.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "16:40",
+                            "endTime": "18:25",
+                            "type": "英语 3D",
+                            "hall": "3号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                }      
+            ]
+        },
+        {
+            "name": "芳华",
+            "artist": "黄轩,苗苗,钟楚曦,杨采钰,李晓峰",
+            "score": "7.2",
+            "time": "136",
+            "type": "剧情",
+            "cover": "//gw.alicdn.com/i3/TB1Mx3Jakfb_uJjSsD4XXaqiFXa_.jpg_170x10000Q75.jpg",
+            "movieSchedules": [
+                {
+                    "date": "明天12-10",
+                    "schedules" : [
+                        {
+                            "startTime": "18:40",
+                            "endTime": "20:25",
+                            "type": "英语 3D",
+                            "hall": "DMAX 巨幕",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        },
+                        {
+                            "startTime": "19:00",
+                            "endTime": "20:45",
+                            "type": "英语 3D",
+                            "hall": "VIP 10厅",
+                            "price": "86.5",
+                            "oldPrice": "89.5"
+                        }
+                    ]
+                }      
+            ]
+        },
+        {
+            "name": "至爱梵高·星空之谜",
+            "artist": "艾丹·特纳,西尔莎·罗南,艾莉诺·汤姆林森,海伦·麦克洛瑞",
+            "score": "9.2",
+            "time": "95",
+            "type": "动画",
+            "cover": "//gw.alicdn.com/i4/TB1lgE8ennI8KJjSszbXXb4KFXa_.jpg_170x10000Q75.jpg",
+            "movieSchedules": [
+                {
+                    "date": "后天12-11",
+                    "schedules" : [
+                        {
+                            "startTime": "17:00",
+                            "endTime": "18:45",
+                            "type": "英语 3D",
+                            "hall": "4号厅",
+                            "price": "36.5",
+                            "oldPrice": "42.5"
+                        }
+                    ]
+                }      
+            ]
+        }
+    ]
+}

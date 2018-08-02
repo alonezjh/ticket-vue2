@@ -1,0 +1,569 @@
+{
+    "movieName": "寻梦环游记",
+    "time": "今天12-15 20:00",
+    "type": "英语3D",
+    "hall": "1号厅",
+    "price": 30.8,
+    "datas": [
+        {
+            "row": "A",
+            "column": [
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 1,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 3,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 6,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 7,
+                    "row": "A",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "row": "B",
+            "column": [
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 1,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 3,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 6,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 7,
+                    "row": "B",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "row": "C",
+            "column": [
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 1,
+                    "row": "C",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "C",
+                    "status": "active"
+                },
+                {
+                    "num": 3,
+                    "row": "C",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "C",
+                    "status": "disabled"
+                },
+                {
+                    "num": 5,
+                    "row": "C",
+                    "status": "disabled"
+                },
+                {
+                    "num": 6,
+                    "row": "C",
+                    "status": "disabled"
+                },
+                {
+                    "num": 7,
+                    "row": "C",
+                    "status": "active"
+                },
+                {
+                    "num": 8,
+                    "row": "C",
+                    "status": "active"
+                },
+                {
+                    "num": 9,
+                    "row": "C",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "row": "D",
+            "column": [
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 1,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 3,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 6,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 7,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 8,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 9,
+                    "row": "D",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "row": "E",
+            "column": [
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 1,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 3,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 6,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 7,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 8,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 9,
+                    "row": "E",
+                    "status": "active"
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                },
+                {
+                    "num": 0,
+                    "row": "",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "row": "F",
+            "column": [
+                {
+                    "num": 1,
+                    "row": "F",
+                    "status": "disabled"
+                },
+                {
+                    "num": 2,
+                    "row": "F",
+                    "status": "disabled"
+                },
+                {
+                    "num": 3,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 6,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 7,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 8,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 9,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 10,
+                    "row": "F",
+                    "status": "active"
+                },
+                {
+                    "num": 11,
+                    "row": "F",
+                    "status": "disabled"
+                },
+                {
+                    "num": 12,
+                    "row": "F",
+                    "status": "disabled"
+                },
+                {
+                    "num": 13,
+                    "row": "F",
+                    "status": "active"
+                }
+            ]
+        },
+        {
+            "row": "G",
+            "column": [
+                {
+                    "num": 1,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 3,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 6,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 7,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 8,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 9,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 10,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 11,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 12,
+                    "row": "G",
+                    "status": "active"
+                },
+                {
+                    "num": 13,
+                    "row": "G",
+                    "status": "active"
+                }
+            ]
+        },
+        {
+            "row": "H",
+            "column": [
+                {
+                    "num": 1,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 2,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 3,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 4,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 5,
+                    "row": "H",
+                    "status": "disabled"
+                },
+                {
+                    "num": 6,
+                    "row": "H",
+                    "status": "disabled"
+                },
+                {
+                    "num": 7,
+                    "row": "H",
+                    "status": "disabled"
+                },
+                {
+                    "num": 8,
+                    "row": "H",
+                    "status": "disabled"
+                },
+                {
+                    "num": 9,
+                    "row": "H",
+                    "status": "disabled"
+                },
+                {
+                    "num": 10,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 11,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 12,
+                    "row": "H",
+                    "status": "active"
+                },
+                {
+                    "num": 13,
+                    "row": "H",
+                    "status": "active"
+                }
+            ]
+        }
+    ]
+}

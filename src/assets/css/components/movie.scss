@@ -1,0 +1,227 @@
+/*
+ * @Author: alonez 
+ * @Date: 2017-12-01 11:01:41 
+ * @Last Modified by: alonez
+ * @Last Modified time: 2017-12-16 18:35:49
+ */
+.wrap {
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+
+    .row {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content:space-between;
+
+        .movie-date {
+            padding-top:.6rem;
+            padding-bottom:.6rem;
+            width:100%;
+            text-align:left;
+            color: #50505a;  
+            padding-left:1rem;
+            margin-top:1rem;
+            background:#f5f5f5;
+            line-height: 1.25rem;
+            line-height: 5.3vmin;
+            font-size: .8125rem;
+        }
+
+        /** 电影信息 **/
+        .movie-info {
+            border-top: 1px solid #f9f9f9;
+            display: flex;
+            align-items: center;
+            padding: 0 4vw;
+            width: 100%;
+            padding-top: 2.5vh;
+
+            /** 热度类型 **/
+            .info-type {
+                position: absolute;
+                top: 5px;
+                right: 0;
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+
+            /** 封面海报 **/
+            .info-cover {
+                width: 4.5rem;
+                height: 6.2rem;
+                display: block;            
+                background-position: 50%;
+                background-size: cover;
+                position: relative;
+                opacity: 1; 
+                transition: opacity 0.5s ease-in;
+
+                i, i::after {
+                    display: block;
+                    top: 50%;
+                    left: 50%;
+                    position: absolute;
+                }
+
+                i {
+                    background: #fff;
+                    border-radius: 100%;
+                    opacity: .9;
+                    width: 20px;
+                    height: 20px;
+                    margin: -10px 0 0 -10px;
+                }
+
+                i:after {
+                    content: " ";
+                    width: 0;
+                    height: 0;
+                    border-top: 5px solid transparent;
+                    border-left: 6px solid #000;
+                    border-bottom: 5px solid transparent;
+                    margin: -5px 0 0 -2px;
+                }
+            }
+
+            /** 主要信息 **/
+            .info-content {
+                flex: 1;
+                margin-left: 4vw;
+                align-items: flex-start;
+                text-align: left;
+                justify-content: space-between;
+
+                .content-title {
+                    display: flex;
+                    align-items: center;
+                    overflow: hidden;
+                    max-width: 50vw;
+
+                    .title {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    i {
+                        font-size: 3.2rem;
+                        margin-left: -.5rem;
+                    }
+                }
+
+                .content-score {
+                    color: #8a869e;
+                    font-size: .8125rem;
+                    margin-top: .1875rem;
+                    margin-top: .8vmin;
+                    width: auto;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+
+                    .score-star {
+                        float: left;
+                        margin-top: .125rem;
+                        margin-top: .5vmin;
+                        width: 68px;
+                        height: 10px;
+                        background-size: auto 100%;
+                        background-image: url(../../static/img/star_empty.svg);
+
+                        .star {
+                            width: 100%;
+                            height: 100%;
+                            background-size: auto 100%;
+                            background-image: url(../../static/img/star_fill.svg);
+                        }
+                    }
+
+                    .score-num {
+                        float: left;
+                        margin-left: .4rem;
+                        font-size: .75rem;
+                        line-height: 1rem;
+                        line-height: 4.3vmin;
+                    }
+                
+                }
+
+                .content-person {
+                    color: #8a869e;
+                    font-size: .8125rem;
+                    margin-top: .1875rem;
+                    margin-top: .8vmin;
+                    width: auto;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+
+                    span {
+                        color: #FEBF7F;
+                    }
+                }
+            }
+
+            .info-btn {
+                display: block;
+                color: #fff;
+                text-align: center;
+                white-space: nowrap;
+                background-image: linear-gradient(45deg,#ff7ba0,#ff4d64);
+                border-radius: 4vmin;
+                position: relative;
+                font-size: .75rem;
+                line-height: 7.5vmin;
+                height: 7vmin;
+                padding-left: 3.5vmin;
+                padding-right: 3.5vmin;
+            }
+
+            .btn-soon {
+                color: #fff;
+                background-image: linear-gradient(45deg,#55c2ff,#349cec);
+            }
+
+        }
+
+        /** 电影活动 **/
+        .movie-act {
+            margin-left: 6.1rem;
+            width: 100%;
+            border-top:1px solid #eee;
+        }
+
+        .act-wrap {
+            color: #8a869e;
+            font-size: .8rem;
+            line-height: 2.5rem;
+            line-height: 10.7vmin;
+            max-width:68vw;
+            text-align:left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            .wrap-title {
+                color: #fea54c;
+            }
+
+            .wrap-line {
+                color: #ededed;
+                margin: 0 .3125rem;
+                margin: 0 1.33333333vmin;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) { 
+    .wrap {
+        width: 500px;
+        left: 50%;
+        transform: translate(0, 0);
+    }
+}

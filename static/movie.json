@@ -1,0 +1,93 @@
+{
+    "cinemas": [
+        {
+            "name": "寻梦环游记",
+            "score": "9.5",
+            "type": 1,
+            "spec": "3d",
+            "director": "李·昂克里奇",
+            "role": ["安东尼·冈萨雷兹","本杰明·布拉特"],
+            "cover": "//gw.alicdn.com/i2/TB1xsowaG_85uJjSZFlXXXemXXa_.jpg_160x160Q75.jpg",
+            "activity": {
+                "title": "万达特惠，名额有限抢完即止",
+                "link": ""
+            }   
+        },
+        {
+            "name": "芳华",
+            "score": "8.9",
+            "type": 2,
+            "spec": "imax",
+            "director": "冯小刚",
+            "role": ["黄轩","苗苗","钟楚曦","杨采钰"],
+            "cover": "//gw.alicdn.com/i3/TB12V0Iiv6H8KJjSspmXXb2WXXa_.jpg_160x160Q30s150.jpg",
+            "activity": {
+                "title": "恒大影院特惠抢票，名额有限抢完即止",
+                "link": ""
+            } 
+        },
+        {
+            "name": "机器之血",
+            "score": "8.6",
+            "type": 0,
+            "spec": "3dimax",
+            "director": "张立嘉",
+            "role": ["成龙","罗志祥","欧阳娜娜"],
+            "cover": "//gw.alicdn.com/i1/TB1GNNGiDnI8KJjSszgXXc8ApXa_.jpg_160x160Q30s150.jpg",
+            "activity": "" 
+        },
+        {
+            "name": "心理罪之城市之光",
+            "score": "8.7",
+            "type": 0,
+            "spec": "",
+            "director": "徐纪周",
+            "role": ["邓超","阮经天","刘诗诗","林嘉欣"],
+            "cover": "//gw.alicdn.com/i1/TB1yrlffJzJ8KJjSspkXXbF7VXa_.jpg_160x160Q30s150.jpg",
+            "activity": "" 
+        },
+        {
+            "name": "妖猫传",
+            "score": "7.8",
+            "type": 0,
+            "spec": "imax",
+            "director": "陈凯歌",
+            "role": ["黄轩","染谷将太","张雨绮","秦昊"],
+            "cover": "//gw.alicdn.com/i2/TB1u78.iv6H8KJjy0FjXXaXepXa_.jpg_160x160Q30s150.jpg",
+            "activity": "" 
+        },
+        {
+            "name": "帕丁顿熊2",
+            "score": "9.1",
+            "type": 0,
+            "spec": "imax",
+            "director": "保罗·金",
+            "role": ["本·威士肖","杜江","休·格兰特"],
+            "cover": "//gw.alicdn.com/i1/TB1PkLjgtzJ8KJjSspkXXbF7VXa_.jpg_160x160Q30s150.jpg",
+            "activity": {
+                "title": "中影特惠，名额有限抢完即止",
+                "link": ""
+            } 
+        },
+        {
+            "name": "至爱梵高·星空之谜",
+            "score": "9.0",
+            "type": 0,
+            "spec": "",
+            "director": "多洛塔·科别拉",
+            "role": ["道格拉斯·布斯","赵天宇"],
+            "cover": "//gw.alicdn.com/i4/TB1lgE8ennI8KJjSszbXXb4KFXa_.jpg_160x160Q30s150.jpg",
+            "activity": "" 
+        },
+        {
+            "name": "正义联盟",
+            "score": "8.5",
+            "type": 0,
+            "spec": "3dimax",
+            "director": "扎克·施奈德",
+            "role": ["亨利·卡维尔","本·阿弗莱克"],
+            "cover": "//gw.alicdn.com/i2/TB1IlYAerYI8KJjy0FaXXbAiVXa_.jpg_160x160Q30s150.jpg",
+            "activity": "" 
+        }
+    ]
+}

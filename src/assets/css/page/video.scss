@@ -1,0 +1,427 @@
+.video {
+    background: #f2f2f2;
+    position: relative;
+
+    .playTop {
+        position: fixed !important;
+        top: 0;
+        z-index: 999;
+        left: 0;
+
+        .video-wrap{
+            padding: 4vmin 4vmin;
+            position: relative;
+            z-index: 99;
+            width: 100%;
+            margin-top: -1.1vmin;
+            border-bottom: 1px #eee solid;
+            background: #fff!important;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            overflow-y: hidden;
+            display: flex;
+            background: 0 100% repeat-x;
+            background-image: linear-gradient(left top,left bottom,color-stop(.5,transparent),color-stop(.5,#e2e2e2),to(#e2e2e2));
+            background-size: 100% 1px;
+    
+            .wrap-info {
+                color: #8a869e;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                font-size: .8125rem;
+                padding-right: .9375rem;
+                padding-right: 4vmin;
+                -ms-flex-negative: 1;
+                flex-shrink: 1;
+                -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                -ms-flex-preferred-size: auto;
+                flex-basis: auto;
+    
+                .info-title{
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    margin-bottom: 1.1vmin;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+    
+                    .title {
+                        color: #222227;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-weight: 500;
+                        font-size: 1rem;
+                        -ms-flex-negative: 1;
+                        flex-shrink: 1;
+                        -webkit-box-flex: 0;
+                        -ms-flex-positive: 0;
+                        flex-grow: 0;
+                        -ms-flex-preferred-size: auto;
+                        flex-basis: auto;
+                    }
+    
+                    .star {
+                            color: #8a869e;
+                            display: flex;
+                            margin-left: 2vmin;
+                            font-size: .8125rem;
+                            margin-top: .1875rem;
+                            margin-top: .8vmin;
+                            width: auto;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+    
+                            .star-wrap {
+                                float: left;
+                                margin-top: .125rem;
+                                margin-top: .5vmin;
+                                width: 68px;
+                                height: 10px;
+                                background-size: auto 100%;
+                                background-image: url(../../../../static/img/star_empty.svg);
+    
+                                .fill {
+                                    width: 100%;
+                                    height: 100%;
+                                    background-size: auto 100%;
+                                    background-image: url(../../../../static/img/star_fill.svg);
+                                }
+                            }
+    
+                            .star-num {
+                                color: #8a869e;
+                                margin-left: .3125rem;
+                                margin-left: 1.3vmin;
+                                font-size: .8rem;
+                            }
+                        
+                        }
+                }
+    
+                .info-meta {
+                    overflow: hidden;
+                    text-overflow: ellipsis;    
+                    color: #8a869e;
+                    overflow: hidden;
+                    max-width: 70vw;
+                    text-align: left;
+                    white-space: nowrap;
+                    display: block;
+                    font-size: .8125rem;
+                }
+            }
+    
+            .wrap-btn {
+                display: flex;
+                align-items: center;
+                flex-shrink: 0;
+                -webkit-box-flex: 0;
+                -ms-flex-positive: 0;
+                flex-grow: 0;
+                -ms-flex-preferred-size: auto;
+                flex-basis: auto;
+    
+                a{
+                    color: #ff4d64;
+                    border: 1px solid #ff4d64;
+                    border-radius: 4px;
+                    line-height: 2.1538;
+                    font-size: 13px;
+                    display: block;
+                    padding: 0 .625rem;
+                    padding: 0 2.66666667vmin;
+                }
+            }
+        }
+    }
+
+    .playBottom {
+        padding-top:74.5vmin;
+    
+        .video-list {
+            position: relative;
+            margin-top: 2vmin;
+            padding-right: 4vmin;
+            background-color: #FFFFFF;
+    
+    
+            .title {
+                text-align: left;
+                margin-left: 4vmin;
+                font-size: .95rem;
+                line-height: 1;
+                padding-top: 4.5vmin;
+                color: #222227;
+                font-weight: 500;
+    
+                .num {
+                    font-size: .8125rem;
+                    color: #8a869e;
+                    line-height: 1;
+                    font-weight: 400;
+                }
+            }
+    
+            .list {
+                width: 100%;
+                margin-left: 4vmin;  
+                overflow-x: scroll;
+                padding-bottom: 4.5vmin;
+                -webkit-overflow-x: scroll;
+    
+                .swiper-container {
+                    display: flex;
+                    margin-top: 5vmin;    
+                    padding-right: 4vmin;          
+                    justify-content: flex-start;
+    
+                    .swiper-slide {
+                        display: inline-block;             
+                        line-height: 42px;
+                        text-align: center;
+                        position: relative;
+                        text-overflow: ellipsis;
+                        word-break: keep-all;
+    
+                        .video-cover::after {
+                            content: "";
+                            left: 0;
+                            top: 0;
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            background-color: none;
+                            background-image: url('../../../../static/img/play.png');
+                            background-repeat: no-repeat;
+                            background-position: 50%;
+                            -webkit-transfrom: scale(.5);
+                            -webkit-transform: scale(.5);
+                            -ms-transform: scale(.5);
+                            transform: scale(.5);
+                        }
+                    }
+    
+                    .video-playing {
+                        
+                        .video-cover {
+    
+                            .playing {
+                                background: rgba(0,0,0,.55);
+                                top:0;
+                                display: flex;
+                                width: 40vw;
+                                height: 12vh;
+                                align-items: center;
+                                justify-content: center;
+                                position: absolute;
+                                font-size: 13px;
+                                color: #fff;
+                                line-height: 1;
+                                text-align: center;
+                            }
+    
+                            .duration {
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                height: 6vmin;
+                                line-height: 6vmin;
+                                background-color: rgba(0,0,0,.8);
+                                color: #fff;
+                                font-size: 11px;
+                                padding: 0 2vmin;
+                            }
+                        }  
+    
+                        .video-cover::after {
+                            content: "";
+                            display: none;
+                        }
+    
+                        .video-name {            
+                            color: #ff4d64;
+                        }
+                    }
+                }
+    
+                .video-cover {
+                    position: relative;
+                    width: 40vw;
+                    height: 12vh;
+                    background: #f00 50% no-repeat;
+                    background-size: cover;
+                    overflow: hidden;
+                    margin: 0 auto;
+                    opacity: 1; transition: opacity 0.5s ease-in;
+    
+                    .playing {
+                        display: none;
+                    }
+    
+                    .duration {
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        height: 6vmin;
+                        line-height: 6vmin;
+                        background-color: rgba(0,0,0,.7);
+                        color: #fff;
+                        font-size: 11px;
+                        padding: 0 2vmin;
+                    }
+                }  
+    
+                .video-name {
+                    width: 40vmin;
+                    font-size: .8125rem;
+                    margin-top: 2.5vmin;
+                    line-height: 5vmin;
+                    display: block;
+                    color: #50505a;
+                    text-align: center;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                
+            }
+        }
+    
+        .video-comment{
+            position: relative;
+            margin-top: 2vmin;
+            padding-right: 4vmin;
+            background-color: #FFFFFF;
+    
+    
+            .title {
+                text-align: left;
+                margin-left: 4vmin;
+                font-size: .95rem;
+                line-height: 1;
+                padding-top: 4.5vmin;
+                color: #222227;
+                font-weight: 700;
+            }
+    
+            .comment-wrap {
+                margin-left: 18px;
+                margin-top: 5vmin;
+                
+                .wrap-item {
+                    position: relative;
+                    margin-top: .1rem;
+                    margin-bottom: .3rem;
+    
+                    .item-avatar {
+                        position: absolute;
+                        width: 8vmin;
+                        height: 8vmin;
+                        flex-shrink: 0;
+                        border-radius: 100%;
+                        background-size: cover;
+                        padding: 2px;
+                    }
+    
+                    ul:last-child {
+                        margin-bottom: -.5rem;
+                    }
+                    
+                    ul {
+                        padding-left: 3.125rem;                  
+                        padding-bottom: .9375rem;
+    
+                        li:last-child {
+                            border-bottom: 1px solid #eee;
+                            padding-bottom: .9rem;
+                        }
+    
+                        li {
+                            padding-right: 1rem;
+                            display: inline-block;
+                            width: 100%;
+    
+                            .item-username {
+                                height: 8vmin;
+                                text-align: left;
+                                overflow: hidden;
+                                width: 100%;
+                                font-size: .9375rem;
+                                font-weight: 700;
+                                line-height: 8vmin;
+                                color: #50505a;
+                                vertical-align: middle;
+                                word-break: break-all;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+    
+                            .item-comment {
+                                color: #333;
+                                max-height: 150px; 
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                text-align: justify;
+                                font-size: .9rem;
+                                line-height: 1.5rem;
+                            }
+    
+                            .item-extra {
+                                margin-top: 2.5vmin;
+                                display: -webkit-flex;
+                                display: -webkit-box;
+                                display: -ms-flexbox;
+                                display: flex;
+                                justify-content: space-between;
+    
+                                .extra-time {
+                                    color: #8a869e;
+                                    font-size: .8125rem;
+                                    line-height: 1.25rem;
+                                    flex-basis: auto;
+                                }
+    
+                                .extra-msg {
+                                    display: flex;
+                                    -webkit-flex-shrink: 0;
+                                    -ms-flex-negative: 0;
+                                    flex-shrink: 0;
+                                    -webkit-flex-grow: 0;
+                                    -webkit-box-flex: 0;
+                                    -ms-flex-positive: 0;
+                                    flex-grow: 0;
+                                    -webkit-flex-basis: auto;
+                                    -ms-flex-preferred-size: auto;
+                                    flex-basis: auto;
+                                    color: #8a869e;
+    
+                                    div {
+                                        margin-left: .6rem;
+    
+                                        .msg-count {
+                                            color: #8a869e;
+                                            font-size: .8125rem;
+                                            line-height: 1.25rem;
+                                            font-size: .8125rem;
+                                            line-height: 1.25rem;
+                                            text-align: justify;
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

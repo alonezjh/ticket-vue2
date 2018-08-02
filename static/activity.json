@@ -1,0 +1,53 @@
+{
+    "datas": [
+        {
+            "title": "中国电信用户积分兑换10元红包",
+            "desc": "小积分，大用途！积分不限量兑换",
+            "icon": "//gw.alicdn.com/tfs/TB1nwv4e3MPMeJjy1XcXXXpppXa-200-200.jpg",
+            "area": "限部分省份",
+            "type": 2
+        },
+        {
+            "title": "申请浦发信用卡 月月狂省976",
+            "desc": "申请核卡成功，获赠2张电影票",
+            "icon": "//gw.alicdn.com/tps/TB1ajH.PXXXXXczXVXXXXXXXXXX-200-200.png",
+            "area": "全国",
+            "type": 1
+        },
+        {
+            "title": "平安银行信用卡 购票满11立减10元",
+            "desc": "每天限票3000张，抢完为止",
+            "icon": "//gw.alicdn.com/tfs/TB1p6iESVXXXXc2XXXXXXXXXXXX-200-200.png",
+            "area": "全国",
+            "type": 1
+        },
+        {
+            "title": "办广发卡 全年免费看电影",
+            "desc": "开卡即送2张电影票",
+            "icon": "//gw.alicdn.com/tfs/TB18myaSVXXXXcwXVXXXXXXXXXX-200-200.png",
+            "area": "全国",
+            "type": 1
+        },
+        {
+            "title": "申请兴业信用卡 观影豪礼享不停",
+            "desc": "核卡任刷一笔，获赠2张电影票",
+            "icon": "//gw.alicdn.com/tps/TB1DC36OVXXXXc5XpXXXXXXXXXX-200-200.jpg",
+            "area": "全国",
+            "type": 1
+        },
+        {
+            "title": "浦发银行信用卡 购票立减10元",
+            "desc": "每天限额1000名，抢完为止",
+            "icon": "//gw.alicdn.com/tps/TB1ajH.PXXXXXczXVXXXXXXXXXX-200-200.png",
+            "area": "全国",
+            "type": 0
+        },
+        {
+            "title": "浦发银行借记卡 购票立减20元",
+            "desc": "每天限量1000名，抢完为止",
+            "icon": "//gw.alicdn.com/tps/TB1ajH.PXXXXXczXVXXXXXXXXXX-200-200.png",
+            "area": "全国",
+            "type": 0
+        }
+    ]
+}
